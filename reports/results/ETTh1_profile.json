@@ -1,0 +1,127 @@
+{
+  "dataset": {
+    "source_url": "https://github.com/zhouhaoyi/ETDataset",
+    "source_file_url": "https://github.com/zhouhaoyi/ETDataset/blob/main/ETT-small/ETTh1.csv",
+    "filename": "ETTh1.csv",
+    "access_date": "2026-10-23",
+    "license_note": "The ETDataset repository currently states CC BY-ND 4.0. The repository-level license does not clearly enumerate which assets it covers, so its applicability to the CSV assets remains uncertain. This project does not claim redistribution rights; do not redistribute the source CSV or derived data without clarification."
+  },
+  "validation": {
+    "is_valid": true,
+    "issues": [],
+    "expected_columns": [
+      "date",
+      "HUFL",
+      "HULL",
+      "MUFL",
+      "MULL",
+      "LUFL",
+      "LULL",
+      "OT"
+    ],
+    "expected_interval": "0 days 01:00:00"
+  },
+  "profile": {
+    "row_count": 17420,
+    "columns": [
+      "date",
+      "HUFL",
+      "HULL",
+      "MUFL",
+      "MULL",
+      "LUFL",
+      "LULL",
+      "OT"
+    ],
+    "start_timestamp": "2016-07-01 00:00:00",
+    "end_timestamp": "2018-06-26 19:00:00",
+    "timestamp_interval_counts": {
+      "0 days 01:00:00": 17419
+    },
+    "missing_value_counts": {
+      "date": 0,
+      "HUFL": 0,
+      "HULL": 0,
+      "MUFL": 0,
+      "MULL": 0,
+      "LUFL": 0,
+      "LULL": 0,
+      "OT": 0
+    },
+    "duplicate_timestamp_rows": 0,
+    "numeric_summary_finite_values": {
+      "HUFL": {
+        "count": 17420,
+        "mean": 7.375141332557705,
+        "std": 7.067743958957723,
+        "min": -22.70599937438965,
+        "25%": 5.827000141143799,
+        "50%": 8.77400016784668,
+        "75%": 11.788000106811523,
+        "max": 23.643999099731445
+      },
+      "HULL": {
+        "count": 17420,
+        "mean": 2.2422424215417096,
+        "std": 2.0423423070363693,
+        "min": -4.75600004196167,
+        "25%": 0.7369999885559082,
+        "50%": 2.2100000381469727,
+        "75%": 3.6840000152587886,
+        "max": 10.11400032043457
+      },
+      "MUFL": {
+        "count": 17420,
+        "mean": 4.300239086766587,
+        "std": 6.826978212457668,
+        "min": -25.08799934387207,
+        "25%": 3.2960000634193416,
+        "50%": 5.96999979019165,
+        "75%": 8.635000228881836,
+        "max": 17.340999603271484
+      },
+      "MULL": {
+        "count": 17420,
+        "mean": 0.8815677387633465,
+        "std": 1.8092934715307927,
+        "min": -5.934000015258789,
+        "25%": -0.2840000092983246,
+        "50%": 0.9589999914169312,
+        "75%": 2.203000068664551,
+        "max": 7.747000217437744
+      },
+      "LUFL": {
+        "count": 17420,
+        "mean": 3.0660619981835002,
+        "std": 1.164505952387544,
+        "min": -1.187999963760376,
+        "25%": 2.315000057220459,
+        "50%": 2.8329999446868896,
+        "75%": 3.625,
+        "max": 8.498000144958496
+      },
+      "LULL": {
+        "count": 17420,
+        "mean": 0.856932145499343,
+        "std": 0.5995518293119517,
+        "min": -1.371000051498413,
+        "25%": 0.6700000166893005,
+        "50%": 0.975000023841858,
+        "75%": 1.218000054359436,
+        "max": 3.0460000038146973
+      },
+      "OT": {
+        "count": 17420,
+        "mean": 13.324671589881694,
+        "std": 8.566946318051135,
+        "min": -4.079999923706056,
+        "25%": 6.964000225067139,
+        "50%": 11.395999908447266,
+        "75%": 18.07900047302246,
+        "max": 46.00699996948242
+      }
+    },
+    "sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+    "file_size_bytes": 2589657
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "scenario_name": "validation_gradual_drift",
+  "segment": "validation",
+  "training_rows": 12194,
+  "prediction_rows": 2613,
+  "predicted_anomalies": 308,
+  "prediction_rate": 0.1178721775736701,
+  "fit_feature": "OT",
+  "prediction_feature": "OT_injected",
+  "random_state": 20261023,
+  "contamination": 0.01,
+  "n_estimators": 200,
+  "max_samples": "auto",
+  "max_features": 1.0,
+  "bootstrap": false,
+  "n_jobs": 1,
+  "score_min": 0.4496026516646285,
+  "score_max": 0.7558070161988842,
+  "output_file": "reports\\results\\isolation_forest_validation_gradual_drift.csv",
+  "labels_used": false
+}

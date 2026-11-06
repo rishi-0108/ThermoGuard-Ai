@@ -1,0 +1,18 @@
+{
+  "scenario_name": "validation_gradual_drift",
+  "segment": "validation",
+  "prediction_rows": 2613,
+  "predicted_anomalies": 0,
+  "prediction_rate": 0.0,
+  "fit_feature": "OT",
+  "fit_rows": 12194,
+  "fit_mean": 16.29471486647764,
+  "fit_sample_std": 8.348814368533061,
+  "k": 3.0,
+  "lower_limit": -8.75172823912154,
+  "upper_limit": 41.34115797207682,
+  "score_min": -2.398270449940446,
+  "score_max": -0.7552826386713667,
+  "output_file": "reports\\results\\control_limits_validation_gradual_drift.csv",
+  "labels_used": false
+}

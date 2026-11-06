@@ -1,0 +1,13 @@
+# Initial data candidate. Paths are local and ignored by Git.
+dataset:
+  name: ETT-small ETTh1
+  source_url: https://github.com/zhouhaoyi/ETDataset
+  relative_source_path: ETT-small/ETTh1.csv
+  local_path: data/raw/ETTh1.csv
+  timestamp_column: date
+  timestamp_resolution: 1h
+  target_column: OT
+  feature_columns: [HUFL, HULL, MUFL, MULL, LUFL, LULL, OT]
+  source_license: CC-BY-ND-4.0
+  redistribute_source_data: false
+  redistribute_derived_data: false

@@ -1,0 +1,1 @@
+"""ThermoGuard AI detector implementations."""

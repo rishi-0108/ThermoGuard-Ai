@@ -1,0 +1,30 @@
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local datasets
+/data/raw/
+/data/interim/
+/data/processed/
+
+# Detailed generated prediction outputs
+/reports/results/control_limits_validation_gradual_drift.csv
+/reports/results/isolation_forest_validation_gradual_drift.csv
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Temporary files
+/.tmp/
+*.log
+*.tmp

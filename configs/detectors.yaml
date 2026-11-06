@@ -1,0 +1,18 @@
+# Chunk 5 control-limit baseline configuration.
+detectors:
+  statistical_control_limits:
+    k: 3.0
+    fit_feature: OT
+    prediction_feature: OT_injected
+    default_scenario: validation_gradual_drift
+  isolation_forest:
+    random_state: 20261023
+    contamination: 0.01
+    n_estimators: 200
+    max_samples: auto
+    max_features: 1.0
+    bootstrap: false
+    n_jobs: 1
+    fit_feature: OT
+    prediction_feature: OT_injected
+    default_scenario: validation_gradual_drift
